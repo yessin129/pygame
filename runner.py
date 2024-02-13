@@ -13,6 +13,6 @@ while True:
           if event.type == pygame.QUIT:
            pygame.quit()
            exit()
-       #screen.blit(test_surface,(0,0))
-     pygame.display.update
+     screen.blit(test_surface,(0,0))
+     pygame.display.update()
      clock.tick(60)
